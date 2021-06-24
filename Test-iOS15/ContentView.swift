@@ -10,6 +10,7 @@ import SwiftUI
 enum CellOption {
     case searchable
     case refreshable
+    case rowsSeparator
     
     @ViewBuilder
     func getView() -> some View {
@@ -18,6 +19,8 @@ enum CellOption {
             SearchView()
         case .refreshable:
             RefreshView()
+        case .rowsSeparator:
+            RowsSeparatorView()
         }
     }
     
@@ -27,6 +30,8 @@ enum CellOption {
             return "searchable"
         case .refreshable:
             return "refreshable"
+        case .rowsSeparator:
+            return "rowsSeparator"
         }
     }
 }
@@ -34,7 +39,8 @@ enum CellOption {
 struct ContentView: View {
     var options: [CellOption] = [
         .searchable,
-        .refreshable
+        .refreshable,
+        .rowsSeparator
     ]
     
     var body: some View {

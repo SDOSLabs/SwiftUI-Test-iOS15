@@ -8,26 +8,33 @@
 import SwiftUI
 
 enum CellOption {
-    case search
+    case searchable
+    case refreshable
     
+    @ViewBuilder
     func getView() -> some View {
         switch self {
-        case .search:
-            return SearchView()
+        case .searchable:
+            SearchView()
+        case .refreshable:
+            RefreshView()
         }
     }
     
     func getTitle() -> String {
         switch self {
-        case .search:
-            return "Search"
+        case .searchable:
+            return "searchable"
+        case .refreshable:
+            return "refreshable"
         }
     }
 }
 
 struct ContentView: View {
     var options: [CellOption] = [
-        .search
+        .searchable,
+        .refreshable
     ]
     
     var body: some View {
@@ -37,6 +44,7 @@ struct ContentView: View {
                     ContentCellView(option: $0)
                 }
             }
+            .navigationBarTitle("Home", displayMode: .automatic)
         }
     }
 }

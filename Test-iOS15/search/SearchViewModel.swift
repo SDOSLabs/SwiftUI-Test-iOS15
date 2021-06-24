@@ -32,6 +32,8 @@ final class SearchViewModel: ObservableObject {
         for i in 0..<100 {
             localItems.append("Index \(i)")
         }
+        localItems = localItems.shuffled()
+        searchText = ""
         await filterResults()
     }
     

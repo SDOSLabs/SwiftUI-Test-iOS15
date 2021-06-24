@@ -7,10 +7,45 @@
 
 import SwiftUI
 
+enum CellOption {
+    case search
+    
+    func getView() -> some View {
+        switch self {
+        case .search:
+            return SearchView()
+        }
+    }
+    
+    func getTitle() -> String {
+        switch self {
+        case .search:
+            return "Search"
+        }
+    }
+}
+
 struct ContentView: View {
+    var options: [CellOption] = [
+        .search
+    ]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(options, id: \.self) {
+                    ContentCellView(option: $0)
+                }
+            }
+        }
+    }
+}
+
+struct ContentCellView: View {
+    var option: CellOption
+    
+    var body: some View {
+        NavigationLink(option.getTitle(), destination: option.getView)
     }
 }
 

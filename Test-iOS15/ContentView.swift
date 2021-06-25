@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-enum CellOption: CaseIterable {
+enum CellOption: String, CaseIterable {
     case searchable
     case refreshable
     case rowsSeparator
     case swipeActions
+    case privacySensitive
     
     @ViewBuilder
     func getView() -> some View {
@@ -24,19 +25,8 @@ enum CellOption: CaseIterable {
             RowsSeparatorView()
         case .swipeActions:
             SwipeActionsView()
-        }
-    }
-    
-    func getTitle() -> String {
-        switch self {
-        case .searchable:
-            return "searchable"
-        case .refreshable:
-            return "refreshable"
-        case .rowsSeparator:
-            return "rowsSeparator"
-        case .swipeActions:
-            return "swipeActions"
+        case .privacySensitive:
+            PrivacySensitiveView()
         }
     }
 }
@@ -60,7 +50,7 @@ struct ContentCellView: View {
     var option: CellOption
     
     var body: some View {
-        NavigationLink(option.getTitle(), destination: option.getView)
+        NavigationLink(option.rawValue, destination: option.getView)
     }
 }
 

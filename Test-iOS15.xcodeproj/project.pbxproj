@@ -21,6 +21,8 @@
 		B169565C2684B9FE00DBD26A /* RowsSeparatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169565A2684B9FE00DBD26A /* RowsSeparatorViewModel.swift */; };
 		B1C16F8326859EB8008C852D /* SwipeActionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C16F8126859EB8008C852D /* SwipeActionsViewModel.swift */; };
 		B1C16F8426859EB8008C852D /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C16F8226859EB8008C852D /* SwipeActionsView.swift */; };
+		B1C16F882685A3B8008C852D /* PrivacySensitiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C16F862685A3B8008C852D /* PrivacySensitiveView.swift */; };
+		B1C16F892685A3B8008C852D /* PrivacySensitiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C16F872685A3B8008C852D /* PrivacySensitiveViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		B169565A2684B9FE00DBD26A /* RowsSeparatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowsSeparatorViewModel.swift; sourceTree = "<group>"; };
 		B1C16F8126859EB8008C852D /* SwipeActionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionsViewModel.swift; sourceTree = "<group>"; };
 		B1C16F8226859EB8008C852D /* SwipeActionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
+		B1C16F862685A3B8008C852D /* PrivacySensitiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacySensitiveView.swift; sourceTree = "<group>"; };
+		B1C16F872685A3B8008C852D /* PrivacySensitiveViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacySensitiveViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		B16956212684A43500DBD26A /* Test-iOS15 */ = {
 			isa = PBXGroup;
 			children = (
+				B1C16F852685A3B8008C852D /* privacySensitive */,
 				B1C16F8026859EB8008C852D /* swipeActions */,
 				B16956582684B9FE00DBD26A /* rowsSeparator */,
 				B16956512684B50B00DBD26A /* refreshable */,
@@ -178,6 +183,15 @@
 				B1C16F8226859EB8008C852D /* SwipeActionsView.swift */,
 			);
 			path = swipeActions;
+			sourceTree = "<group>";
+		};
+		B1C16F852685A3B8008C852D /* privacySensitive */ = {
+			isa = PBXGroup;
+			children = (
+				B1C16F862685A3B8008C852D /* PrivacySensitiveView.swift */,
+				B1C16F872685A3B8008C852D /* PrivacySensitiveViewModel.swift */,
+			);
+			path = privacySensitive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,8 +330,10 @@
 				B16956502684A95100DBD26A /* SearchViewModel.swift in Sources */,
 				B169565B2684B9FE00DBD26A /* RowsSeparatorView.swift in Sources */,
 				B16956252684A43500DBD26A /* ContentView.swift in Sources */,
+				B1C16F892685A3B8008C852D /* PrivacySensitiveViewModel.swift in Sources */,
 				B16956232684A43500DBD26A /* Test_iOS15App.swift in Sources */,
 				B1C16F8426859EB8008C852D /* SwipeActionsView.swift in Sources */,
+				B1C16F882685A3B8008C852D /* PrivacySensitiveView.swift in Sources */,
 				B1C16F8326859EB8008C852D /* SwipeActionsViewModel.swift in Sources */,
 				B169565C2684B9FE00DBD26A /* RowsSeparatorViewModel.swift in Sources */,
 			);

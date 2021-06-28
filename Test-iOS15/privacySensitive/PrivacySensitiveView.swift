@@ -22,7 +22,7 @@ struct PrivacySensitiveView: View {
                 Text("Sin resultados")
             }
         }
-        .navigationBarTitle("swipeActions", displayMode: .inline)
+        .navigationBarTitle("privacySensitive", displayMode: .inline)
         .task {
             await model.loadData()
         }

@@ -13,6 +13,9 @@ enum CellOption: String, CaseIterable {
     case rowsSeparator
     case swipeActions
     case privacySensitive
+    case textFieldAndKeyboard
+    case asyncImageView
+    case blurView
     
     @ViewBuilder
     func getView() -> some View {
@@ -27,6 +30,12 @@ enum CellOption: String, CaseIterable {
             SwipeActionsView()
         case .privacySensitive:
             PrivacySensitiveView()
+        case .textFieldAndKeyboard:
+            TextFieldAndKeyboardView()
+        case .asyncImageView:
+            AsyncImageView()
+        case .blurView:
+            BlurView()
         }
     }
 }

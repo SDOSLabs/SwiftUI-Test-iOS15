@@ -51,14 +51,14 @@
 
 /* Begin PBXFileReference section */
 		B138CF9C268B039900D54D72 /* ForegroundStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyleView.swift; sourceTree = "<group>"; };
-		B169561F2684A43500DBD26A /* Test-iOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-iOS15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B169561F2684A43500DBD26A /* SwiftUI-iOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-iOS15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16956222684A43500DBD26A /* Test_iOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_iOS15App.swift; sourceTree = "<group>"; };
 		B16956242684A43500DBD26A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B16956262684A43800DBD26A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16956292684A43800DBD26A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B169562F2684A43900DBD26A /* Test-iOS15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-iOS15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B169562F2684A43900DBD26A /* SwiftUI-iOS15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-iOS15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16956332684A43900DBD26A /* Test_iOS15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_iOS15Tests.swift; sourceTree = "<group>"; };
-		B16956392684A43900DBD26A /* Test-iOS15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-iOS15UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16956392684A43900DBD26A /* SwiftUI-iOS15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-iOS15UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B169563D2684A43900DBD26A /* Test_iOS15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_iOS15UITests.swift; sourceTree = "<group>"; };
 		B169564D2684A93B00DBD26A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		B169564F2684A95100DBD26A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		B16956162684A43500DBD26A = {
 			isa = PBXGroup;
 			children = (
-				B16956212684A43500DBD26A /* Test-iOS15 */,
+				B16956212684A43500DBD26A /* SwiftUI-iOS15 */,
 				B16956322684A43900DBD26A /* Test-iOS15Tests */,
 				B169563C2684A43900DBD26A /* Test-iOS15UITests */,
 				B16956202684A43500DBD26A /* Products */,
@@ -142,14 +142,14 @@
 		B16956202684A43500DBD26A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B169561F2684A43500DBD26A /* Test-iOS15.app */,
-				B169562F2684A43900DBD26A /* Test-iOS15Tests.xctest */,
-				B16956392684A43900DBD26A /* Test-iOS15UITests.xctest */,
+				B169561F2684A43500DBD26A /* SwiftUI-iOS15.app */,
+				B169562F2684A43900DBD26A /* SwiftUI-iOS15Tests.xctest */,
+				B16956392684A43900DBD26A /* SwiftUI-iOS15UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B16956212684A43500DBD26A /* Test-iOS15 */ = {
+		B16956212684A43500DBD26A /* SwiftUI-iOS15 */ = {
 			isa = PBXGroup;
 			children = (
 				B138CF9E268B13BB00D54D72 /* ui */,
@@ -158,7 +158,7 @@
 				B16956262684A43800DBD26A /* Assets.xcassets */,
 				B16956282684A43800DBD26A /* Preview Content */,
 			);
-			path = "Test-iOS15";
+			path = "SwiftUI-iOS15";
 			sourceTree = "<group>";
 		};
 		B16956282684A43800DBD26A /* Preview Content */ = {
@@ -274,9 +274,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B169561E2684A43500DBD26A /* Test-iOS15 */ = {
+		B169561E2684A43500DBD26A /* SwiftUI-iOS15 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B16956412684A43900DBD26A /* Build configuration list for PBXNativeTarget "Test-iOS15" */;
+			buildConfigurationList = B16956412684A43900DBD26A /* Build configuration list for PBXNativeTarget "SwiftUI-iOS15" */;
 			buildPhases = (
 				B169561B2684A43500DBD26A /* Sources */,
 				B169561C2684A43500DBD26A /* Frameworks */,
@@ -286,14 +286,14 @@
 			);
 			dependencies = (
 			);
-			name = "Test-iOS15";
+			name = "SwiftUI-iOS15";
 			productName = "Test-iOS15";
-			productReference = B169561F2684A43500DBD26A /* Test-iOS15.app */;
+			productReference = B169561F2684A43500DBD26A /* SwiftUI-iOS15.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B169562E2684A43900DBD26A /* Test-iOS15Tests */ = {
+		B169562E2684A43900DBD26A /* SwiftUI-iOS15Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B16956442684A43900DBD26A /* Build configuration list for PBXNativeTarget "Test-iOS15Tests" */;
+			buildConfigurationList = B16956442684A43900DBD26A /* Build configuration list for PBXNativeTarget "SwiftUI-iOS15Tests" */;
 			buildPhases = (
 				B169562B2684A43900DBD26A /* Sources */,
 				B169562C2684A43900DBD26A /* Frameworks */,
@@ -304,14 +304,14 @@
 			dependencies = (
 				B16956312684A43900DBD26A /* PBXTargetDependency */,
 			);
-			name = "Test-iOS15Tests";
+			name = "SwiftUI-iOS15Tests";
 			productName = "Test-iOS15Tests";
-			productReference = B169562F2684A43900DBD26A /* Test-iOS15Tests.xctest */;
+			productReference = B169562F2684A43900DBD26A /* SwiftUI-iOS15Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B16956382684A43900DBD26A /* Test-iOS15UITests */ = {
+		B16956382684A43900DBD26A /* SwiftUI-iOS15UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B16956472684A43900DBD26A /* Build configuration list for PBXNativeTarget "Test-iOS15UITests" */;
+			buildConfigurationList = B16956472684A43900DBD26A /* Build configuration list for PBXNativeTarget "SwiftUI-iOS15UITests" */;
 			buildPhases = (
 				B16956352684A43900DBD26A /* Sources */,
 				B16956362684A43900DBD26A /* Frameworks */,
@@ -322,9 +322,9 @@
 			dependencies = (
 				B169563B2684A43900DBD26A /* PBXTargetDependency */,
 			);
-			name = "Test-iOS15UITests";
+			name = "SwiftUI-iOS15UITests";
 			productName = "Test-iOS15UITests";
-			productReference = B16956392684A43900DBD26A /* Test-iOS15UITests.xctest */;
+			productReference = B16956392684A43900DBD26A /* SwiftUI-iOS15UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B169561A2684A43500DBD26A /* Build configuration list for PBXProject "Test-iOS15" */;
+			buildConfigurationList = B169561A2684A43500DBD26A /* Build configuration list for PBXProject "SwiftUI-iOS15" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -363,9 +363,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B169561E2684A43500DBD26A /* Test-iOS15 */,
-				B169562E2684A43900DBD26A /* Test-iOS15Tests */,
-				B16956382684A43900DBD26A /* Test-iOS15UITests */,
+				B169561E2684A43500DBD26A /* SwiftUI-iOS15 */,
+				B169562E2684A43900DBD26A /* SwiftUI-iOS15Tests */,
+				B16956382684A43900DBD26A /* SwiftUI-iOS15UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -444,12 +444,12 @@
 /* Begin PBXTargetDependency section */
 		B16956312684A43900DBD26A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B169561E2684A43500DBD26A /* Test-iOS15 */;
+			target = B169561E2684A43500DBD26A /* SwiftUI-iOS15 */;
 			targetProxy = B16956302684A43900DBD26A /* PBXContainerItemProxy */;
 		};
 		B169563B2684A43900DBD26A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B169561E2684A43500DBD26A /* Test-iOS15 */;
+			target = B169561E2684A43500DBD26A /* SwiftUI-iOS15 */;
 			targetProxy = B169563A2684A43900DBD26A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -578,9 +578,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test-iOS15/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-iOS15/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI-iOS15";
+				INFOPLIST_KEY_CFBundleName = "SwiftUI-iOS15";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -592,7 +595,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "es.sdos.Test-iOS15";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.sdos.SwiftUI-iOS15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -607,9 +610,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test-iOS15/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-iOS15/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI-iOS15";
+				INFOPLIST_KEY_CFBundleName = "SwiftUI-iOS15";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -621,7 +627,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "es.sdos.Test-iOS15";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.sdos.SwiftUI-iOS15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -649,7 +655,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-iOS15.app/Test-iOS15";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-iOS15.app/SwiftUI-iOS15";
 			};
 			name = Debug;
 		};
@@ -673,7 +679,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-iOS15.app/Test-iOS15";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-iOS15.app/SwiftUI-iOS15";
 			};
 			name = Release;
 		};
@@ -724,7 +730,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B169561A2684A43500DBD26A /* Build configuration list for PBXProject "Test-iOS15" */ = {
+		B169561A2684A43500DBD26A /* Build configuration list for PBXProject "SwiftUI-iOS15" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B169563F2684A43900DBD26A /* Debug */,
@@ -733,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B16956412684A43900DBD26A /* Build configuration list for PBXNativeTarget "Test-iOS15" */ = {
+		B16956412684A43900DBD26A /* Build configuration list for PBXNativeTarget "SwiftUI-iOS15" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B16956422684A43900DBD26A /* Debug */,
@@ -742,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B16956442684A43900DBD26A /* Build configuration list for PBXNativeTarget "Test-iOS15Tests" */ = {
+		B16956442684A43900DBD26A /* Build configuration list for PBXNativeTarget "SwiftUI-iOS15Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B16956452684A43900DBD26A /* Debug */,
@@ -751,7 +757,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B16956472684A43900DBD26A /* Build configuration list for PBXNativeTarget "Test-iOS15UITests" */ = {
+		B16956472684A43900DBD26A /* Build configuration list for PBXNativeTarget "SwiftUI-iOS15UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B16956482684A43900DBD26A /* Debug */,

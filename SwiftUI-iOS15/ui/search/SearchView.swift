@@ -16,13 +16,6 @@ struct SearchView: View {
                 List {
                     ForEach(model.items, id: \.self) {
                         Text("\($0) ")
-                            .foregroundStyle(
-                                .linearGradient(
-                                    colors: [.red, .black],
-                                    startPoint: .top,
-                                    endPoint: .bottom
-                                )
-                            )
                     }
                 }
             } else {

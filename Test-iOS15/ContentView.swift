@@ -16,6 +16,9 @@ enum CellOption: String, CaseIterable {
     case textFieldAndKeyboard
     case asyncImageView
     case blurView
+    case markdown
+    case locationButton
+    case foregroundStyle
     
     @ViewBuilder
     func getView() -> some View {
@@ -36,6 +39,12 @@ enum CellOption: String, CaseIterable {
             AsyncImageView()
         case .blurView:
             BlurView()
+        case .markdown:
+            MarkdownView()
+        case .locationButton:
+            LocationButtonView()
+        case .foregroundStyle:
+            ForegroundStyleView()
         }
     }
 }

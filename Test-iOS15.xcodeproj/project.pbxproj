@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B138CF9D268B039900D54D72 /* ForegroundStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B138CF9C268B039900D54D72 /* ForegroundStyleView.swift */; };
 		B16956232684A43500DBD26A /* Test_iOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16956222684A43500DBD26A /* Test_iOS15App.swift */; };
 		B16956252684A43500DBD26A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16956242684A43500DBD26A /* ContentView.swift */; };
 		B16956272684A43800DBD26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16956262684A43800DBD26A /* Assets.xcassets */; };
@@ -20,6 +21,9 @@
 		B169565B2684B9FE00DBD26A /* RowsSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16956592684B9FE00DBD26A /* RowsSeparatorView.swift */; };
 		B169565C2684B9FE00DBD26A /* RowsSeparatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169565A2684B9FE00DBD26A /* RowsSeparatorViewModel.swift */; };
 		B1C1450A268997DA0076A079 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C14509268997DA0076A079 /* BlurView.swift */; };
+		B1C1450D268AEC4C0076A079 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C1450C268AEC4C0076A079 /* MarkdownView.swift */; };
+		B1C14510268AEDEC0076A079 /* LocationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C1450F268AEDEC0076A079 /* LocationButtonView.swift */; };
+		B1C14512268AEF810076A079 /* LocationButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C14511268AEF810076A079 /* LocationButtonViewModel.swift */; };
 		B1C16F8326859EB8008C852D /* SwipeActionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C16F8126859EB8008C852D /* SwipeActionsViewModel.swift */; };
 		B1C16F8426859EB8008C852D /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C16F8226859EB8008C852D /* SwipeActionsView.swift */; };
 		B1C16F882685A3B8008C852D /* PrivacySensitiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C16F862685A3B8008C852D /* PrivacySensitiveView.swift */; };
@@ -46,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B138CF9C268B039900D54D72 /* ForegroundStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyleView.swift; sourceTree = "<group>"; };
 		B169561F2684A43500DBD26A /* Test-iOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-iOS15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16956222684A43500DBD26A /* Test_iOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_iOS15App.swift; sourceTree = "<group>"; };
 		B16956242684A43500DBD26A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +67,9 @@
 		B16956592684B9FE00DBD26A /* RowsSeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowsSeparatorView.swift; sourceTree = "<group>"; };
 		B169565A2684B9FE00DBD26A /* RowsSeparatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowsSeparatorViewModel.swift; sourceTree = "<group>"; };
 		B1C14509268997DA0076A079 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		B1C1450C268AEC4C0076A079 /* MarkdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		B1C1450F268AEDEC0076A079 /* LocationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButtonView.swift; sourceTree = "<group>"; };
+		B1C14511268AEF810076A079 /* LocationButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButtonViewModel.swift; sourceTree = "<group>"; };
 		B1C16F8126859EB8008C852D /* SwipeActionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionsViewModel.swift; sourceTree = "<group>"; };
 		B1C16F8226859EB8008C852D /* SwipeActionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
 		B1C16F862685A3B8008C852D /* PrivacySensitiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacySensitiveView.swift; sourceTree = "<group>"; };
@@ -95,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B138CF9B268B038300D54D72 /* foregroundStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B138CF9C268B039900D54D72 /* ForegroundStyleView.swift */,
+			);
+			path = foregroundStyle;
+			sourceTree = "<group>";
+		};
 		B16956162684A43500DBD26A = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +134,9 @@
 		B16956212684A43500DBD26A /* Test-iOS15 */ = {
 			isa = PBXGroup;
 			children = (
+				B138CF9B268B038300D54D72 /* foregroundStyle */,
+				B1C1450E268AEDD90076A079 /* locationButton */,
+				B1C1450B268AEC3B0076A079 /* markdown */,
 				B1C14508268997060076A079 /* blur */,
 				B1C16F8D2685D3D3008C852D /* asycnImage */,
 				B1C16F8A2685BF2F008C852D /* textFieldAndKeyboard */,
@@ -191,6 +210,23 @@
 				B1C14509268997DA0076A079 /* BlurView.swift */,
 			);
 			path = blur;
+			sourceTree = "<group>";
+		};
+		B1C1450B268AEC3B0076A079 /* markdown */ = {
+			isa = PBXGroup;
+			children = (
+				B1C1450C268AEC4C0076A079 /* MarkdownView.swift */,
+			);
+			path = markdown;
+			sourceTree = "<group>";
+		};
+		B1C1450E268AEDD90076A079 /* locationButton */ = {
+			isa = PBXGroup;
+			children = (
+				B1C1450F268AEDEC0076A079 /* LocationButtonView.swift */,
+				B1C14511268AEF810076A079 /* LocationButtonViewModel.swift */,
+			);
+			path = locationButton;
 			sourceTree = "<group>";
 		};
 		B1C16F8026859EB8008C852D /* swipeActions */ = {
@@ -358,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16956552684B53000DBD26A /* RefreshView.swift in Sources */,
+				B1C14510268AEDEC0076A079 /* LocationButtonView.swift in Sources */,
 				B169564E2684A93B00DBD26A /* SearchView.swift in Sources */,
 				B1C1450A268997DA0076A079 /* BlurView.swift in Sources */,
 				B16956542684B53000DBD26A /* RefreshViewModel.swift in Sources */,
@@ -368,8 +405,11 @@
 				B16956232684A43500DBD26A /* Test_iOS15App.swift in Sources */,
 				B1C16F8C2685BF4F008C852D /* TextFieldAndKeyboardView.swift in Sources */,
 				B1C16F8426859EB8008C852D /* SwipeActionsView.swift in Sources */,
+				B1C1450D268AEC4C0076A079 /* MarkdownView.swift in Sources */,
 				B1C16F882685A3B8008C852D /* PrivacySensitiveView.swift in Sources */,
+				B138CF9D268B039900D54D72 /* ForegroundStyleView.swift in Sources */,
 				B1C16F8326859EB8008C852D /* SwipeActionsViewModel.swift in Sources */,
+				B1C14512268AEF810076A079 /* LocationButtonViewModel.swift in Sources */,
 				B169565C2684B9FE00DBD26A /* RowsSeparatorViewModel.swift in Sources */,
 				B1C16F8F2685D3EB008C852D /* AsyncImageView.swift in Sources */,
 			);

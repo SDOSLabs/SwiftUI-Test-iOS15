@@ -82,7 +82,7 @@ struct TextFieldAndKeyboardView: View {
                         self.focus = focus.previous()
                     }
                 } label: {
-                    Image(systemName: "lessthan.circle.fill")
+                    Image(systemName: "chevron.backward")
                 }
                 .disabled(!hasPreviousTextField)
                 Button {
@@ -90,7 +90,7 @@ struct TextFieldAndKeyboardView: View {
                         self.focus = focus.next()
                     }
                 } label: {
-                    Image(systemName: "greaterthan.circle.fill")
+                    Image(systemName: "chevron.forward")
                 }
                 .disabled(!hasNextTextField)
             }

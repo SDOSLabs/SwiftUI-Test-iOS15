@@ -111,6 +111,24 @@
 			path = foregroundStyle;
 			sourceTree = "<group>";
 		};
+		B138CF9E268B13BB00D54D72 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B1C16F8D2685D3D3008C852D /* asycnImage */,
+				B1C14508268997060076A079 /* blur */,
+				B138CF9B268B038300D54D72 /* foregroundStyle */,
+				B1C1450E268AEDD90076A079 /* locationButton */,
+				B1C1450B268AEC3B0076A079 /* markdown */,
+				B1C16F852685A3B8008C852D /* privacySensitive */,
+				B16956512684B50B00DBD26A /* refreshable */,
+				B16956582684B9FE00DBD26A /* rowsSeparator */,
+				B169564C2684A92500DBD26A /* search */,
+				B1C16F8026859EB8008C852D /* swipeActions */,
+				B1C16F8A2685BF2F008C852D /* textFieldAndKeyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 		B16956162684A43500DBD26A = {
 			isa = PBXGroup;
 			children = (
@@ -134,17 +152,7 @@
 		B16956212684A43500DBD26A /* Test-iOS15 */ = {
 			isa = PBXGroup;
 			children = (
-				B138CF9B268B038300D54D72 /* foregroundStyle */,
-				B1C1450E268AEDD90076A079 /* locationButton */,
-				B1C1450B268AEC3B0076A079 /* markdown */,
-				B1C14508268997060076A079 /* blur */,
-				B1C16F8D2685D3D3008C852D /* asycnImage */,
-				B1C16F8A2685BF2F008C852D /* textFieldAndKeyboard */,
-				B1C16F852685A3B8008C852D /* privacySensitive */,
-				B1C16F8026859EB8008C852D /* swipeActions */,
-				B16956582684B9FE00DBD26A /* rowsSeparator */,
-				B16956512684B50B00DBD26A /* refreshable */,
-				B169564C2684A92500DBD26A /* search */,
+				B138CF9E268B13BB00D54D72 /* ui */,
 				B16956222684A43500DBD26A /* Test_iOS15App.swift */,
 				B16956242684A43500DBD26A /* ContentView.swift */,
 				B16956262684A43800DBD26A /* Assets.xcassets */,

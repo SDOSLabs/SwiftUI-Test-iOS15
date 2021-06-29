@@ -50,7 +50,7 @@ enum CellOption: String, CaseIterable {
 }
 
 struct ContentView: View {
-    var options: [CellOption] = CellOption.allCases
+    let options: [CellOption] = CellOption.allCases.sorted { $0.rawValue < $1.rawValue }
     
     var body: some View {
         NavigationView {

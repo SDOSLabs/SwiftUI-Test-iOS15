@@ -14,11 +14,11 @@ struct MaterialItem {
 
 struct BlurView: View {
     var items: [MaterialItem] = [
+        MaterialItem(title: "ultraThickMaterial", materialModifier: .ultraThickMaterial),
+        MaterialItem(title: "thickMaterial", materialModifier: .thickMaterial),
         MaterialItem(title: "regularMaterial", materialModifier: .regularMaterial),
         MaterialItem(title: "thinMaterial", materialModifier: .thinMaterial),
         MaterialItem(title: "ultraThinMaterial", materialModifier: .ultraThinMaterial),
-        MaterialItem(title: "thickMaterial", materialModifier: .thickMaterial),
-        MaterialItem(title: "ultraThickMaterial", materialModifier: .ultraThickMaterial),
     ]
     var body: some View {
         List {
@@ -27,6 +27,7 @@ struct BlurView: View {
             }
         }
         .listStyle(.plain)
+        .navigationBarTitle("blurView", displayMode: .inline)
     }
 }
 
@@ -51,7 +52,6 @@ struct BlurCell: View {
         .listRowInsets(EdgeInsets())
         .padding(.vertical, 5)
         .listRowSeparator(.hidden)
-        .navigationBarTitle("blurView", displayMode: .inline)
     }
 }
 

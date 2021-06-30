@@ -19,7 +19,7 @@ struct RowsSeparatorView: View {
                     }
                 }
             } else {
-                Text("Sin resultados")
+                Text("No results")
             }
         }
         .navigationBarTitle("rowsSeparator", displayMode: .inline)

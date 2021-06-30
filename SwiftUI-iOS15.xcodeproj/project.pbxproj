@@ -240,8 +240,8 @@
 		B1C16F8026859EB8008C852D /* swipeActions */ = {
 			isa = PBXGroup;
 			children = (
-				B1C16F8126859EB8008C852D /* SwipeActionsViewModel.swift */,
 				B1C16F8226859EB8008C852D /* SwipeActionsView.swift */,
+				B1C16F8126859EB8008C852D /* SwipeActionsViewModel.swift */,
 			);
 			path = swipeActions;
 			sourceTree = "<group>";

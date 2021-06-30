@@ -15,11 +15,11 @@ struct RefreshView: View {
             if model.items.count > 0 {
                 List {
                     ForEach(model.items, id: \.self) {
-                        Text("\($0) ")
+                        Text("\($0)")
                     }
                 }
             } else {
-                Text("Sin resultados")
+                Text("No results")
             }
         }
         .navigationBarTitle("refreshable", displayMode: .inline)

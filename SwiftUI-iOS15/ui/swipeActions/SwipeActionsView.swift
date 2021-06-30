@@ -19,7 +19,7 @@ struct SwipeActionsView: View {
                     }
                 }
             } else {
-                Text("Sin resultados")
+                Text("No results")
             }
         }
         .navigationBarTitle("swipeActions", displayMode: .inline)

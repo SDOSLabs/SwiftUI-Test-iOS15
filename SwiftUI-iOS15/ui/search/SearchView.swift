@@ -19,7 +19,7 @@ struct SearchView: View {
                     }
                 }
             } else {
-                Text("Sin resultados")
+                Text("No results")
             }
         }
         .searchable(text: $model.searchText)

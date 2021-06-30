@@ -19,7 +19,7 @@ struct PrivacySensitiveView: View {
                     }
                 }
             } else {
-                Text("Sin resultados")
+                Text("No results")
             }
         }
         .navigationBarTitle("privacySensitive", displayMode: .inline)

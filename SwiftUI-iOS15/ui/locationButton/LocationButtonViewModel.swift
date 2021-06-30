@@ -10,16 +10,15 @@ import CoreLocation
 import MapKit
 
 class LocationButtonViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
-    private lazy var manager = CLLocationManager()
+    private lazy var manager: CLLocationManager = {
+        let manager = CLLocationManager()
+        manager.delegate = self
+        return manager
+    }()
     private static let span = MKCoordinateSpan(latitudeDelta: 0.008, longitudeDelta: 0.008)
     
     @Published var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.408672852282024, longitude: -5.944668759610994), span: LocationButtonViewModel.span)
     @Published var fetchingLocation: Bool = false
-    
-    override init() {
-        super.init()
-        manager.delegate = self
-    }
     
     func requestLocation() {
         fetchingLocation = true
@@ -35,6 +34,7 @@ class LocationButtonViewModel: NSObject, ObservableObject, CLLocationManagerDele
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
+        print("Simulator not work well. Test in device")
         fetchingLocation = false
     }
 }

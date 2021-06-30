@@ -39,7 +39,7 @@ struct BlurCell: View {
             Image("background_big_sur")
                 .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(height: 80)
+                    .frame(height: 130)
                     .clipped()
             
             Text("_\(materialItem.title)_")

@@ -18,26 +18,22 @@ struct LocationButtonView: View {
             Map(coordinateRegion: $model.region)
                 .overlay(
                     Group {
-                    if model.fetchingLocation {
-                        ProgressView()
-                            .tint(.black)
-                    } else {
-                        LocationButton(.currentLocation) {
-                            model.requestLocation()
+                        if model.fetchingLocation {
+                            ProgressView()
+                                .tint(.black)
+                        } else {
+                            LocationButton(.currentLocation) {
+                                model.requestLocation()
+                            }
                         }
-                        .overlay(
-                            Circle()
-                                .stroke(.gray, lineWidth: 1)
-                        )
                     }
-                }
-                .frame(width: 44, height: 44)
-                .cornerRadius(22)
-                .labelStyle(.iconOnly)
-                .symbolVariant(.fill)
-                .tint(.white)
-                .offset(x: proxy.size.width / 2 - 44, y: proxy.size.height / 2 - 64)
-                .padding()
+                    .foregroundColor(.white)
+                    .cornerRadius(15)
+//                    .labelStyle(.iconOnly)
+                    .symbolVariant(.fill)
+                    .tint(.blue)
+                    .offset(y: proxy.size.height / 2 - 64)
+                    .padding()
                 )
         }
         .navigationBarTitle("locationButton", displayMode: .inline)

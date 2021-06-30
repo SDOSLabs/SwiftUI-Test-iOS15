@@ -93,6 +93,7 @@ struct TextFieldAndKeyboardView: View {
                     Image(systemName: "chevron.forward")
                 }
                 .disabled(!hasNextTextField)
+                Spacer()
             }
         }
         .navigationBarTitle("textFieldAndKeyboard", displayMode: .inline)
